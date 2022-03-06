@@ -74,6 +74,25 @@ function add(x,y){
      }
      )
 
+     // This keyword
+
+     var firstName; // global variable
+     var lastName;   // global variable
+     console.log(firstName);
+     console.log(lastName);
+    var Second= function(firstName,lastName){
+      console.log(this.firstName=firstName);
+      console.log(this.lastName=lastName);
+     }
+
+    Second("Arti","Doltani");
+    console.log(firstName);
+    console.log(lastName);
+
+
+
+
+
     
     
   
