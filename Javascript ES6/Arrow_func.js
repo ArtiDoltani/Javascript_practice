@@ -29,8 +29,10 @@
 //const greet=name => "Good Morning " + name;
 //console.log(greet("Arti"));
 // here we use one parameter name but if we use multiple then we should use brackets.
-const greet=(name,LastName) => "Good Morning " + name + LastName;
-console.log(greet("Arti"," Doltani"));
+ const greet=(name,LastName) => "Good Morning " + name + LastName;
+ console.log(greet("Arti"," Doltani"));
+
+
 
 
 
