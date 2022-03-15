@@ -9,7 +9,8 @@ function extractNegativeNumbers(numbers)
    {
     if ( numbers[i]<0)
     {
-       negativeNumbers.push(numbers[i]);
+      negativeNumbers.push(numbers[i]);
+    
     }
 }
 console.log(negativeNumbers);
